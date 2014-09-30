@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="responsive progress bar using jquery and javascript">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+  <title>Progress Bars Demo</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/progressbar.css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    </head>
+    <body>
+      <div class="container">
+        <div id="progress-wrapper">
+          
+          <div class="progress-inner ">
+            <section class="progress-content">
+              
+              <header>
+                <h2 class="title">Progress Bars Demo</h2>
+              </header>
+              
+              <div id="progressbar1" class="progressbar" data-current="25" data-idnum="1"><div class="progress-label"></div></div>
+              <div id="progressbar2" class="progressbar" data-current="50" data-idnum="2"><div class="progress-label"></div></div>
+              <div id="progressbar3" class="progressbar" data-current="75" data-idnum="3"><div class="progress-label"></div></div>
+              
+              <fieldset>
+                <div class="opt">
+                  <select id="sel-bar">
+                    <option value="1">#progress1</option>
+                    <option value="2">#progress2</option>
+                    <option value="3">#progress3</option>
+                  </select>
+                </div>
+                <div class="opt">
+                  <button data-adj="-25">-25</button>
+                  <button data-adj="-10">-10</button>
+                  <button data-adj="10">+10</button>
+                  <button data-adj="25">+25</button>
+                </div>
+              </fieldset>
+            </section>
+          </div>
+        </div>
+
+      </div>
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+      <script src="js/progressbar.min.js"></script>
+      
+    </body>
+    </html>
