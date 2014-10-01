@@ -1,7 +1,7 @@
-Progressbar-Production
-=======================
+Fronend UI 
+===========
 
-##You can find the codes as follows:
+##path:
 
 - style - public/css/progressbar.css
 - javascript - public/js/progressbar.js
@@ -9,11 +9,10 @@ Progressbar-Production
 
 ##Demo
 
-Prototype Demo : http://progressbar-prototype.herokuapp.com/
-Production Demo : http://progressbar-production.herokuapp.com/
+http://prog-jquery.herokuapp.com/
 
 
-##Technologies applied
+##Technologies
 
 - javascript
 - jQuery/jQuery UI
